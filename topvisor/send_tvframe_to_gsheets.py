@@ -8,8 +8,8 @@ import datetime
 def push_data(search_engine, group_folder=None):
 
 
-    service_file_path = 'pysheets-347309-e1fa5df88a49.json'
-    spreadsheet_id = '1eGyrkQiRhY3evJdmVo4czQHLJ3w6uRSn3pffXLvTLdA'
+    service_file_path = ''
+    spreadsheet_id = ''
     data_path, sheet_name = '', ''
 
     if group_folder == None:

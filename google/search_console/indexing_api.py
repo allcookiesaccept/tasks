@@ -9,7 +9,7 @@ def update(url: str):
     ENDPOINT = "https://indexing.googleapis.com/v3/urlNotifications:publish"
 
     # service_account_file.json is the private key that you created for your service account.
-    JSON_KEY_FILE = "iport-gsc-data-ab28273590bb.json"
+    JSON_KEY_FILE = ""
 
     credentials = ServiceAccountCredentials.from_json_keyfile_name(JSON_KEY_FILE, scopes=SCOPES)
 
@@ -35,7 +35,7 @@ def get_notification_response(url: str):
 
     SCOPES = [ "https://www.googleapis.com/auth/indexing" ]
     # service_account_file.json is the private key that you created for your service account.
-    JSON_KEY_FILE = "iport-gsc-data-ab28273590bb.json"
+    JSON_KEY_FILE = ""
 
     credentials = ServiceAccountCredentials.from_json_keyfile_name(JSON_KEY_FILE, scopes=SCOPES)
 

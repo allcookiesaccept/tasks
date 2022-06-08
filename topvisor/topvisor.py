@@ -8,14 +8,14 @@ class Topvisor:
     def __init__(self):
 
         print('Authorizing Topvisor')
-        self.user = '296177'
-        self.key = 'c1414daa91881b0b278c'
+        self.user = ''
+        self.key = ''
         self.headers = {'Content-type': 'application/json', 'User-Id': self.user, 'Authorization': f'bearer {self.key}'}
         self.server = 'https://api.topvisor.com'
         self.date_today = str(datetime.date.today())
         # self.date_today = '2022-05-23'
 
-        self.project_id = 4944800
+        self.project_id = 
         self.region_index = {"yandex": 3, "google": 6}
         self.dates = ['2022-01-10', '2022-05-19']
 
